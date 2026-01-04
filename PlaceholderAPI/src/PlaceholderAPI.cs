@@ -9,7 +9,7 @@ using SwiftlyS2.Shared.Plugins;
 
 namespace PlaceholderAPI;
 
-[PluginMetadata(Id = "PlaceholderAPI", Version = "1.0.0", Name = "PlaceholderAPI", Author = "Swiftly Development Team")]
+[PluginMetadata(Id = "PlaceholderAPI", Version = "1.0.1", Name = "PlaceholderAPI", Author = "Swiftly Development Team")]
 public partial class PlaceholderAPI(ISwiftlyCore core) : BasePlugin(core)
 {
     public ConcurrentDictionary<string, (Regex, Func<IPlayer?, string, string>)> Placeholders = [];
