@@ -105,6 +105,8 @@ The PlaceholderAPI comes with several built-in placeholders:
 | `{PLAYERCOUNT}` | Current number of players on the server | `24` |
 | `{PLAYERNAME}` | The player's name (or "Console" if no player) | `PlayerName123` |
 | `{STEAMID}` | The player's SteamID | `76561198012345678` |
+| `{STEAMID32}` | The player's SteamID | `STEAM_0:0:569544375` |
+| `{STEAMID3}` | The player's SteamID | `[U:1:1139088750]` |
 | `{HOSTNAME}` | The server's hostname | `My Awesome Server` |
 | `{MAPNAME}` | The current map name | `de_dust2` |
 | `{DATE}` | Current date in yyyy-MM-dd format | `2025-12-06` |
